@@ -1,8 +1,11 @@
 [package]
 name = "archive-sys"
 description = "Rust bindings to libarchive"
-version = "0.1.0"
+version = "3.7.7"
 edition = "2021"
+readme = "README.md"
+license = "GPL-v3"
+authors = ["Kiwifruit <mahkiwi123@gmail.com>"]
 
 [dependencies]
 
