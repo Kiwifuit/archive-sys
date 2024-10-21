@@ -6,6 +6,7 @@ edition = "2021"
 readme = "README.md"
 license = "GPL-v3"
 authors = ["Kiwifruit <mahkiwi123@gmail.com>"]
+homepage = "https://github.com/Kiwifuit/archive-sys"
 
 [dependencies]
 
