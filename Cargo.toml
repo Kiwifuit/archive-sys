@@ -4,7 +4,7 @@ description = "Rust bindings to libarchive"
 version = "3.7.7"
 edition = "2021"
 readme = "README.md"
-license = "GPL-v3"
+license-file = "LICENSE"
 authors = ["Kiwifruit <mahkiwi123@gmail.com>"]
 homepage = "https://github.com/Kiwifuit/archive-sys"
 
