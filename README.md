@@ -8,3 +8,8 @@ I wanted bindings to `libarchive` because I felt frustrated with all the archivi
 > I'm only a senior high school student that codes in their spare time. Please do not expect quick releases or anything out of this project
 
 Please do note that I'll only occasionally update this crate's version to mirror my machine's `libarchive` version
+
+## Required libraries
+
+- `libarchive`
+- `libclang`
