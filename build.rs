@@ -18,6 +18,7 @@ fn main() -> anyhow::Result<()> {
                 .iter()
                 .map(|path| format!("-I{}", path.to_string_lossy())),
         )
+        .clang_arg("fretain-comments-from-system-headers")
         .generate()
         .context("while generating low-level bindings for libarchive")?;
 
