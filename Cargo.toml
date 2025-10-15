@@ -1,15 +1,15 @@
 [package]
 name = "archive-sys"
-description = "Rust bindings to libarchive"
 version = "3.7.7"
 edition = "2021"
+description = "Rust bindings for libarchive"
+authors = ["Kiwifruit <mahkiwi123@gmail.com>"]
 readme = "README.md"
 license-file = "LICENSE"
-authors = ["Kiwifruit <mahkiwi123@gmail.com>"]
-homepage = "https://github.com/Kiwifuit/archive-sys"
+repository = "https://github.com/Kiwifuit/archive"
 
 [package.metadata.deb]
-depends = [ "libarchive13t64 >= 3.7.2" ]
+depends = ["libarchive13t64 >= 3.7.2"]
 
 [dependencies]
 
